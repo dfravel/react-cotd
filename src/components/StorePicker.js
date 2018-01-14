@@ -37,4 +37,8 @@ class StorePicker extends React.Component {
   }
 }
 
+StorePicker.contextTeyoes = {
+  router: React.PropTypes.object
+};
+
 export default StorePicker;
